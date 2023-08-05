@@ -36,7 +36,7 @@ fun CityList(
 ) {
     LazyColumn(
         verticalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.padding_medium)),
-        modifier = modifier.padding(top = dimensionResource(id = R.dimen.padding_medium), start = dimensionResource(R.dimen.padding_medium), end = dimensionResource(R.dimen.padding_medium))
+        modifier = modifier.padding(dimensionResource(id = R.dimen.padding_medium))
     ) {
         items(uiState.currentPlaceTypePlaces) {place ->
             PlaceItem(
