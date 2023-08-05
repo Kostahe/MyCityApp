@@ -7,5 +7,6 @@ enum class PlaceType(
     @StringRes val titleRes: Int
 ) {
     ShoppingCentre(titleRes = R.string.shopping_centers_title),
-    Parks(titleRes = R.string.parks_title)
+    Park(titleRes = R.string.parks_title),
+    Castle(titleRes = R.string.castle_title)
 }

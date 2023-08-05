@@ -15,6 +15,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Call
 import androidx.compose.material.icons.filled.Place
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -69,6 +70,7 @@ fun InfoDescription(
     modifier: Modifier = Modifier
 ) {
     Card(
+        elevation = CardDefaults.cardElevation(),
         modifier = modifier.fillMaxWidth()
     ) {
         Column {
@@ -88,6 +90,14 @@ fun InfoDescription(
                 Icon(imageVector = ImageVector.vectorResource(id = R.drawable.schedule_icon), contentDescription = null)
                 Spacer(modifier = Modifier.width(dimensionResource(id = R.dimen.padding_medium)))
                 Text(text = stringResource(id = place.openFromToRes))
+            }
+            if(place.price != null) {
+                Spacer(modifier = modifier.height(dimensionResource(id = R.dimen.padding_small)))
+                Row {
+                    Icon(imageVector = ImageVector.vectorResource(id = R.drawable.info_icon), contentDescription = null)
+                    Spacer(modifier = Modifier.width(dimensionResource(id = R.dimen.padding_medium)))
+                    Text(text = stringResource(id = place.price))
+                }
             }
         }
     }

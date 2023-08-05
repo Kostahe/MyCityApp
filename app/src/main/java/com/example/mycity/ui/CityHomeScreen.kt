@@ -29,7 +29,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
@@ -51,7 +50,7 @@ fun CityHomeScreen(
 ) {
     val navigationItemContentList = listOf(
         NavigationItemContent(
-            placeType = PlaceType.Parks,
+            placeType = PlaceType.Park,
             icon = ImageVector.vectorResource(id = R.drawable.park_icon),
             text = stringResource(id = R.string.tab_parks)
         ),
@@ -59,11 +58,15 @@ fun CityHomeScreen(
             placeType = PlaceType.ShoppingCentre,
             icon = Icons.Default.ShoppingCart,
             text = stringResource(id = R.string.tab_shopping_malls)
+        ),
+        NavigationItemContent(
+            placeType = PlaceType.Castle,
+            icon = ImageVector.vectorResource(id = R.drawable.castle_icon),
+            text = stringResource(id = R.string.tab_castles)
         )
     )
 
     if (navigationType == CityNavigationType.PERMANENT_NAVIGATION_DRAWER) {
-        val navigationDrawerContentDescription = stringResource(R.string.navigation_drawer)
         PermanentNavigationDrawer(
             drawerContent = {
                 PermanentDrawerSheet(Modifier.width(dimensionResource(R.dimen.drawer_width))) {
@@ -75,7 +78,6 @@ fun CityHomeScreen(
                             .wrapContentWidth()
                             .fillMaxHeight()
                             .background(MaterialTheme.colorScheme.inverseOnSurface)
-                            .testTag(navigationDrawerContentDescription)
                     )
                 }
             },
@@ -229,7 +231,6 @@ fun CityNavigationDrawerContent(
         }
     }
 }
-
 
 data class NavigationItemContent(
     val placeType: PlaceType,

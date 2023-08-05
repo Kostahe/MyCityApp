@@ -5,7 +5,7 @@ import com.example.mycity.data.PlaceType
 import com.example.mycity.data.local.LocalPlacesDataProvider
 
 data class CityUiState (
-    val currentPlaceType: PlaceType = PlaceType.Parks,
+    val currentPlaceType: PlaceType = PlaceType.Park,
     val currentPlaceTypePlaces: List<Place> = LocalPlacesDataProvider.allPlaces.filter { place: Place ->
         place.placeType == currentPlaceType
     },

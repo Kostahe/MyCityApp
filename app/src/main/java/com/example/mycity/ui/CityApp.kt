@@ -80,7 +80,7 @@ fun CityApp(
 
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentTab = PlaceType.valueOf(
-        backStackEntry?.destination?.route ?: PlaceType.Parks.name
+        backStackEntry?.destination?.route ?: PlaceType.Park.name
     )
 
     val navigationType: CityNavigationType = when (windowSize) {
@@ -110,10 +110,10 @@ fun CityApp(
     ) { innerPadding ->
         NavHost(
             navController = navController,
-            startDestination = PlaceType.Parks.name,
+            startDestination = PlaceType.Park.name,
             modifier = modifier.padding(innerPadding)
         ) {
-            composable(route = PlaceType.Parks.name) {
+            composable(route = PlaceType.Park.name) {
                 CityHomeScreen(
                     navigationType = navigationType,
                     uiState = uiState,
@@ -132,6 +132,24 @@ fun CityApp(
                 )
             }
             composable(route = PlaceType.ShoppingCentre.name) {
+                CityHomeScreen(
+                    navigationType = navigationType,
+                    uiState = uiState,
+                    onTabPressed = { placeType ->
+                        viewModel.updateCurrentPlaceType(placeType)
+                        navController.navigate(placeType.name)
+                    },
+                    currentTab = currentTab,
+                    onCardClick = { place ->
+                        viewModel.updateCurrentPlace(place)
+                        viewModel.navigateToDetailPage()
+                    },
+                    onBackPressed = {
+                        viewModel.navigateToListPage()
+                    }
+                )
+            }
+            composable(route = PlaceType.Castle.name) {
                 CityHomeScreen(
                     navigationType = navigationType,
                     uiState = uiState,

@@ -5,7 +5,7 @@
     <string name="japanese_garden_desc">The Botanical Garden is located in the Troja Valley and covers an area of approximately 25 hectares. Its most famous part is the Fata Morgana greenhouse, but the garden also includes outdoor exhibitions, including a vineyard. The Fata Morgana greenhouse is open year-round from Tuesday to Sunday, with Monday being the closing day.</string>
     <string name="japanese_garden_address">Trojská 800/196, 171 00 Praha-Troja</string>
     <string name="japanese_garden_telephone_number">+420 234 148 122</string>
-    <string name="japanese_garden_open_from_to">January – February – : 09:00 – 16:00\nMarch – October: 09:00 – 19:00\nNovember – December: 09:00 – 16:00</string>
+    <string name="japanese_garden_open_from_to">January – February: 09:00 – 16:00\nMarch – October: 09:00 – 19:00\nNovember – December: 09:00 – 16:00</string>
 
     <string name="shopping_centre_palladium_title">Shopping centre Palladium</string>
     <string name="shopping_centre_palladium_desc">Palladium is a shopping mall located in the centre of Prague in the Czech Republic. It opened in 2007. The mall contains 170 shops and 30 restaurants, with a retail area of 39,000 square metres (420,000 sq ft).[1] There is also designated office space in the building totalling 19,500 square metres (210,000 sq ft).[2] It is one of the biggest shopping centres in the Czech Republic. It is directly opposite another shopping centre, Kotva Department Store.</string>
@@ -18,15 +18,24 @@
     <string name="shopping_centre_cerny_most_address">Chlumecká 765/6, 198 19 Praha 9-Černý Most</string>
     <string name="shopping_centre_cerny_most_telephone_number">+420 281 918 100</string>
     <string name="shopping_centre_cerny_most_open_from_to">09:00 – 21:00</string>
+    
+    <string name="castle_troja_title">Troja Castle</string>
+    <string name="castle_troja_desc">Troja Castle  is a Baroque building located in the Troja district of PragueWithin its premises, there are several farm buildings, including a stable. The castle also had a vineyard and the Chapel of St. Clare (to the north), which is now part of the Botanical Garden. The castle is surrounded by an extensive castle garden with decorative and fruit trees, a small natural maze, fountains, terracotta vases, stucco facades, and an orangery with busts of emperors. The castle, along with the garden, is owned by the City of Prague and is open to the public. The Prague City Gallery holds seasonal exhibitions here from April to October. Inside the castle, you can see unique frescoes decorating the halls.</string>
+    <string name="castle_troja_address">U trojského zámku 4/1170 00 Praha 7</string>
+    <string name="castle_troja_telephone_number">+420 283 851 614</string>
+    <string name="castle_troja_open_from_to">Monday: closed\nTuesday – Thursday: 10:00 – 18:00\nFriday: 13:00–18:00\nSaturday – Sunday: 10:00 – 18:00\nNote: the castle is completely closed in winter.</string>
+    <string name="castle_troja_price">Ticket: 150 Kč\nFamily ticket: 250 Kč\nSenior ticket: 20 Kč</string>
 
     <string name="shopping_centers_title">Shopping centre</string>
     <string name="parks_title">Parks</string>
+    <string name="castle_title">Castles</string>
 
     <string name="back_button">Back</string>
 
     <string name="tab_parks">Parks</string>
     <string name="tab_shopping_malls">Shopping malls</string>
+    <string name="tab_castles">Castles</string>
 
-    <string name="navigation_drawer">Navigation Drawer</string>
-    <string name="navigation_rail">Navigation Rail</string>
+<!--    <string name="navigation_drawer">Navigation Drawer</string>-->
+<!--    <string name="navigation_rail">Navigation Rail</string>-->
 </resources>
