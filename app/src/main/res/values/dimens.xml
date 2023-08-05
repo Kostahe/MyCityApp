@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <dimen name="drawer_padding_header">16dp</dimen>
+    <dimen name="drawer_width">240dp</dimen>
+
+    <dimen name="place_image_size">128dp</dimen>
+    <dimen name="place_header_padding_top">3dp</dimen>
+
+</resources>
