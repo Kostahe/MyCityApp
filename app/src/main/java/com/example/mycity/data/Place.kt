@@ -10,6 +10,8 @@ data class Place (
     @StringRes val titleRes: Int,
     @StringRes val descRes: Int,
     @StringRes val addressRes: Int,
-    val placeType: PlaceType
+    val placeType: PlaceType,
+    @StringRes val telephoneRes: Int,
+    @StringRes val openFromToRes: Int
 )
 

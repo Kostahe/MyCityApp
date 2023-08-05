@@ -1,19 +1,25 @@
 <resources>
     <string name="app_name">MyCity</string>
 
-    <string name="japonska_zahrada_title">Japanese Garden</string>
-    <string name="japonska_zahrade_desc">The Botanical Garden is located in the Troja Valley and covers an area of approximately 25 hectares. Its most famous part is the Fata Morgana greenhouse, but the garden also includes outdoor exhibitions, including a vineyard. The Fata Morgana greenhouse is open year-round from Tuesday to Sunday, with Monday being the closing day.</string>
-    <string name="japonska_zahrada_address">Trojská 800/196, 171 00 Praha-Troja</string>
+    <string name="japanese_garden_title">Japanese Garden</string>
+    <string name="japanese_garden_desc">The Botanical Garden is located in the Troja Valley and covers an area of approximately 25 hectares. Its most famous part is the Fata Morgana greenhouse, but the garden also includes outdoor exhibitions, including a vineyard. The Fata Morgana greenhouse is open year-round from Tuesday to Sunday, with Monday being the closing day.</string>
+    <string name="japanese_garden_address">Trojská 800/196, 171 00 Praha-Troja</string>
+    <string name="japanese_garden_telephone_number">+420 234 148 122</string>
+    <string name="japanese_garden_open_from_to">January – February – : 09:00 – 16:00\nMarch – October: 09:00 – 19:00\nNovember – December: 09:00 – 16:00</string>
 
-    <string name="obchodni_centrum_palladium_address">Nám. Republiky 1079/1a, 110 00 Praha</string>
-    <string name="obchodni_centrum_palladium_title">Shopping centre Palladium</string>
-    <string name="obchodni_centrum_palladium_desc">Palladium is a shopping mall located in the centre of Prague in the Czech Republic. It opened in 2007. The mall contains 170 shops and 30 restaurants, with a retail area of 39,000 square metres (420,000 sq ft).[1] There is also designated office space in the building totalling 19,500 square metres (210,000 sq ft).[2] It is one of the biggest shopping centres in the Czech Republic. It is directly opposite another shopping centre, Kotva Department Store.</string>
+    <string name="shopping_centre_palladium_title">Shopping centre Palladium</string>
+    <string name="shopping_centre_palladium_desc">Palladium is a shopping mall located in the centre of Prague in the Czech Republic. It opened in 2007. The mall contains 170 shops and 30 restaurants, with a retail area of 39,000 square metres (420,000 sq ft).[1] There is also designated office space in the building totalling 19,500 square metres (210,000 sq ft).[2] It is one of the biggest shopping centres in the Czech Republic. It is directly opposite another shopping centre, Kotva Department Store.</string>
+    <string name="shopping_centre_palladium_address">Nám. Republiky 1079/1a, 110 00 Praha</string>
+    <string name="shopping_centre_palladium_telephone_number">+420 225 770 250</string>
+    <string name="shopping_centre_palladium_open_from_to">09:00 – 21:00</string>
 
-    <string name="obchodni_centrum_cerny_most_title">Shopping centre Černy most</string>
-    <string name="obchodni_centrum_cerny_most_desc">A modern shopping centre nearby the Černý most metro station and the Černý most bus terminal. The spacious building hides an area of ​​ nearly 85,000 square meters with 176 retail units and 3,000 parking spaces. There are shops, 30 restaurants, a fitness centre and a cinema.</string>,
-    <string name="obchodni_centum_cerny_most_address">Chlumecká 765/6, 198 19 Praha 9-Černý Most</string>
+    <string name="shopping_centre_cerny_most_title">Shopping centre Černy most</string>
+    <string name="shopping_centre_cerny_most_desc">A modern shopping centre nearby the Černý most metro station and the Černý most bus terminal. The spacious building hides an area of ​​ nearly 85,000 square meters with 176 retail units and 3,000 parking spaces. There are shops, 30 restaurants, a fitness centre and a cinema.</string>,
+    <string name="shopping_centre_cerny_most_address">Chlumecká 765/6, 198 19 Praha 9-Černý Most</string>
+    <string name="shopping_centre_cerny_most_telephone_number">+420 281 918 100</string>
+    <string name="shopping_centre_cerny_most_open_from_to">09:00 – 21:00</string>
 
-    <string name="shopping_malls_title">Shopping malls</string>
+    <string name="shopping_centers_title">Shopping centre</string>
     <string name="parks_title">Parks</string>
 
     <string name="back_button">Back</string>

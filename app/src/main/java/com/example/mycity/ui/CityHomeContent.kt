@@ -25,7 +25,6 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import com.example.mycity.R
 import com.example.mycity.data.Place
 
@@ -36,7 +35,7 @@ fun CityList(
     modifier: Modifier = Modifier
 ) {
     LazyColumn(
-        verticalArrangement = Arrangement.spacedBy( 8.dp ),
+        verticalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.padding_medium)),
         modifier = modifier.padding(top = dimensionResource(id = R.dimen.padding_medium), start = dimensionResource(R.dimen.padding_medium), end = dimensionResource(R.dimen.padding_medium))
     ) {
         items(uiState.currentPlaceTypePlaces) {place ->

@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ShoppingCart
-import androidx.compose.material.icons.filled.ThumbUp
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -32,7 +31,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.dimensionResource
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
 import com.example.mycity.R
@@ -58,7 +56,7 @@ fun CityHomeScreen(
             text = stringResource(id = R.string.tab_parks)
         ),
         NavigationItemContent(
-            placeType = PlaceType.ShoppingMalls,
+            placeType = PlaceType.ShoppingCentre,
             icon = Icons.Default.ShoppingCart,
             text = stringResource(id = R.string.tab_shopping_malls)
         )
